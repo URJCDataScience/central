@@ -22,63 +22,8 @@ author: URJCDataScience
 			</div>
 			<!-- Matrícula main end -->
 			
-			<!-- sidebar start -->
-			<!-- ================ -->
-			<aside class="col-md-4 col-lg-offset-1">
-				<div class="sidebar">
-					<div class="side vertical-divider-left">
-						<!-- logo -->
-						<div id="logo" class="logo">
-							<a href="{{ site.baseurl }}"><img id="logo_img" src="{{ site.baseurl }}images/logo_master_sidebar.png" alt="URJCDataScience"></a>
-						</div>
-
-						<!-- name-and-slogan -->
-						<div class="site-slogan-side">
-							<img class="urjc-image-side" src="{{ site.baseurl }}images/urjc_logo_mini.png" alt="URJC" height="10%" >&nbsp;&nbsp; Universidad Rey Juan Carlos
-						</div>
-
-						<div class="separator-2 mt-20"></div>
-						<ul class="list">
-							<li>
-								<i class="fa fa-map-marker pr-10"></i>Escuela Técnica Superior de Ingeniería Informática
-								<br>
-								<span class="pl-20">Universidad Rey Juan Carlos
-								<br>
-								<span class="pl-20">Tulipán s/n. 28933.</span>
-								<br>
-								<span class="pl-20">Móstoles. Madrid.</span>
-							</li>
-							<li>
-								<i class="fa fa-phone pr-10"></i>(+34) 91 488 7003 &nbsp; (+34) 91 488 8125
-							</li>
-							<li>
-								<i class="fa fa-envelope pr-10"></i><a href="mailto:coordinacion@masterdatascience.es">coordinacion@masterdatascience.es</a>
-							</li>
-						</ul>
-						<ul class="social-links circle small margin-clear dark animated-effect-1">
-							<li class="twitter">
-								<a target="_blank" href="http://www.twitter.com/URJCDataScience"><i class="fa fa-twitter"></i></a>
-							</li>
-							<li class="linkedin">
-								<a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
-							</li>
-							<li class="googleplus">
-								<a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a>
-							</li>
-						</ul>
-						<div class="separator-2 mt-20 "></div>
-						<a class="btn btn-gray collapsed map-show btn-animated" data-toggle="collapse" href="#collapseMap" aria-expanded="false" aria-controls="collapseMap">Show Map <i class="fa fa-plus"></i></a>
-					</div>
-				</div>
-				
-				<!-- section map start -->
-				<!-- ================ -->
-				<section id="collapseMap">
-					<div id="map-canvas"></div>
-				</section>
-				<!-- section map end -->
-			</aside>
-			<!-- sidebar end -->
+			<!-- Sidebar -->
+			{% include sidebar.html %}
 		</div>
 	</div>
 </section>
