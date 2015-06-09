@@ -1,0 +1,41 @@
+/* Theme Name: The Project - Responsive Website Template
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Author e-mail:htmlcoder.me@gmail.com
+Version:1.0.0
+Created:December 2014
+License URI:http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+
+.overlay-invisible.overlay-container:hover .overlay-bottom:not(.links),
+.overlay-invisible.overlay-container:hover .overlay-top {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+img.urjc-image {
+  vertical-align: text-bottom;
+  height: 15px;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+img.urjc-image-side {
+  vertical-align: text-bottom;
+  height: 17px;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.site-slogan-side{
+  color: #777777;
+  font-size: 15px;
+  padding: 3px 0 0;
+  font-weight: 300;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
