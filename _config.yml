@@ -1,0 +1,27 @@
+# General info
+name:             URJC - Master en Data Science
+highlighter:      pygments
+baseurl:          /
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+# Server
+host:             0.0.0.0
+port:             4001
+url:              http://www.masterdatascience.es
+encoding:         UTF-8
+
+# Custom variables
+license:          Copyright URJC Master en Data Science
+theme:            The Project
+theme_by:         HtmlCoder
+theme_by_url:     http://htmlcoder.me/
+theme_url:        https://wrapbootstrap.com/theme/the-project-multipurpose-template-WB0F82581
+
+website:          http://www.masterdatascience.es
+blog:             http://www.masterdatascience.es/blog
+twitter:          https://twitter.com/URJCDataScience
+twitter_user:     URJCDataScience
+github_org:       URJCDataScience
