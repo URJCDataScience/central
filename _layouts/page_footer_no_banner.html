@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Meta info, title, CSS, favicons, etc. -->
+  {% include head.html %}
+
+	<!-- body classes:  -->
+	<!-- "boxed": boxed layout mode e.g. <body class="boxed"> -->
+	<!-- "pattern-1 ... pattern-9": background patterns for boxed layout mode e.g. <body class="boxed pattern-1"> -->
+	<!-- "transparent-header": makes the header transparent and pulls the banner to top -->
+	<body class="no-trans ">
+
+		<!-- Navbar -->
+    	{% include navbar_breadcrumb.html %}
+    
+		<!-- page content -->
+    	{{ content }}
+        
+		<!-- Footer and JS -->
+    	{% include footer_no_banner.html %}
+
+  	</body>
+</html>
