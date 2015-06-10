@@ -8,10 +8,22 @@ License URI:http://support.wrapbootstrap.com/
 File Description: Place here your custom CSS styles
 */
 
-.overlay-invisible.overlay-container:hover .overlay-bottom:not(.links),
-.overlay-invisible.overlay-container:hover .overlay-top {
-  opacity: 0;
-  filter: alpha(opacity=0);
+.pl-50 {
+  padding-left: 50px;
+}
+
+.mark-left-30 li:before {
+  left: 30px;	
+}
+
+.list-icon-ind {
+    list-style: none;
+    position: relative;
+}
+.list-icon-ind li:before {
+    font-family: FontAwesome;
+    content:"\f054";
+    position: absolute;
 }
 
 img.urjc-image {
