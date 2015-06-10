@@ -26,6 +26,10 @@ File Description: Place here your custom CSS styles
     position: absolute;
 }
 
+img.chart {
+	max-width: 70%;
+}
+
 img.urjc-image {
   vertical-align: text-bottom;
   height: 15px;
