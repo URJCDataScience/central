@@ -55,3 +55,7 @@ img.urjc-image-side {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+.overlay-container .text {
+	top: 20%;
+}
