@@ -59,3 +59,11 @@ img.urjc-image-side {
 .overlay-container .text {
 	top: 20%;
 }
+
+.clients .client-image-wide {
+  text-align: center;
+  vertical-align: middle;
+  width: 280px;
+  margin: 20px;
+  display: inline-block;
+}
