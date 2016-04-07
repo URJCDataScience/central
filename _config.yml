@@ -1,6 +1,6 @@
 # General info
 name:             URJC - Master en Data Science
-highlighter:      pygments
+highlighter:      rouge
 baseurl:          /
 
 gems:
