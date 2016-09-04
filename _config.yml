@@ -18,7 +18,7 @@ theme:            minima
 
 # Custom variables
 license:          Copyright URJC Master en Data Science
-theme:            The Project
+theme_name:       The Project
 theme_by:         HtmlCoder
 theme_by_url:     http://htmlcoder.me/
 theme_url:        https://wrapbootstrap.com/theme/the-project-multipurpose-template-WB0F82581
