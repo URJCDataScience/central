@@ -13,6 +13,9 @@ port:             4001
 url:              http://www.masterdatascience.es
 encoding:         UTF-8
 
+#Build settings
+theme:            minima
+
 # Custom variables
 license:          Copyright URJC Master en Data Science
 theme:            The Project
