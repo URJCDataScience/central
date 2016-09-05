@@ -12,6 +12,10 @@ File Description: Place here your custom CSS styles
   padding-left: 50px;
 }
 
+.pl-30 {
+  padding-left: 30px;
+}
+
 .mark-left-30 li:before {
   left: 30px;	
 }
