@@ -71,3 +71,51 @@ img.urjc-image-side {
   margin: 20px;
   display: inline-block;
 }
+
+/* Google maps
+---------------------------------- */
+#map-canvas-mostoles {
+  height: 450px;
+}
+#map-canvas-mostoles.small {
+  height: 347px;
+}
+#collapseMapMostoles {
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: height 0.3s ease-in-out;
+  -o-transition: height 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out;
+}
+#collapseMapMostoles.in {
+  height: 450px;
+}
+.footer-content #map-canvas-mostoles {
+  height: 300px;
+}
+#map-canvas-mostoles img {
+  max-width: inherit;
+}
+
+#map-canvas-madrid {
+  height: 450px;
+}
+#map-canvas-madrid.small {
+  height: 347px;
+}
+#collapseMapMadrid {
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: height 0.3s ease-in-out;
+  -o-transition: height 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out;
+}
+#collapseMapMadrid.in {
+  height: 450px;
+}
+.footer-content #map-canvas-madrid {
+  height: 300px;
+}
+#map-canvas-madrid img {
+  max-width: inherit;
+}
