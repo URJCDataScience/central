@@ -1,11 +1,11 @@
 # General info
 name:             URJC - Master en Data Science
 highlighter:      rouge
-baseurl:          /
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-github-metadata
 
 # Server
 host:             0.0.0.0
