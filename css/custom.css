@@ -120,6 +120,10 @@ img.urjc-image-side {
   max-width: inherit;
 }
 
+.hide {
+  display: none;
+}
+
 .hide:dev {
   display: block;
 }
