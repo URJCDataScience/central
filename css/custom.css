@@ -119,11 +119,3 @@ img.urjc-image-side {
 #map-canvas-madrid img {
   max-width: inherit;
 }
-
-.hide {
-  display: none;
-}
-
-.hide:dev {
-  display: block;
-}
