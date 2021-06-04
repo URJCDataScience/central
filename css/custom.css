@@ -17,7 +17,7 @@ File Description: Place here your custom CSS styles
 }
 
 .mark-left-30 li:before {
-  left: 30px;	
+  left: 30px;
 }
 
 .list-icon-ind {
@@ -118,4 +118,8 @@ img.urjc-image-side {
 }
 #map-canvas-madrid img {
   max-width: inherit;
+}
+
+.hide:dev {
+  display: block;
 }
